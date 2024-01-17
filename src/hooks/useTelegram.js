@@ -1,5 +1,3 @@
-import {useRef} from "react";
-
 const tg = window.Telegram.WebApp;
 export function useTelegram() {
     const onClose = () => {
